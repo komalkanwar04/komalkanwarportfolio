@@ -1,16 +1,47 @@
-# React + Vite
+# Komal Kanwar — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive portfolio web application built with React, Vite, and Vanilla CSS showcasing projects, skills, certifications, and experience.
 
-Currently, two official plugins are available:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkomalkanwar04%2Fkomalkanwarportfolio)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/komalkanwar04/komalkanwarportfolio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, Vite, Vanilla CSS
+- **Icons**: Lucide React
+- **Deployment**: Vercel & Render (Pre-configured with `vercel.json` and `render.yaml`)
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Local Development
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/komalkanwar04/komalkanwarportfolio.git
+   cd komalkanwarportfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🌐 Deployments
+
+- **GitHub Repository**: [komalkanwar04/komalkanwarportfolio](https://github.com/komalkanwar04/komalkanwarportfolio)
+- **Vercel**: Pre-configured with SPA routing via `vercel.json`
+- **Render**: Pre-configured Static Site Blueprint via `render.yaml`
